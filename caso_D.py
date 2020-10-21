@@ -112,16 +112,16 @@ def caso_D():
 
     #, R, t, E, ρ, σy
     R = 20*cm
-    t = 200*mm
+    t = 10*mm
 
     props1 = [R, t, 200*GPa, 7500*kg/m**3, 420*MPa]
     props2 = [R*2, t*3, 200*GPa, 7500*kg/m**3, 420*MPa]
-
+    props3 = [R*3, t*4, 200*GPa, 7500*kg/m**3, 420*MPa]
 
     for i in range(int(38/2)):
         a = par[2*i]
         b = impar[2*i+1]
-        ret.agregar_barra(Barra(a, b, *props2))  
+        ret.agregar_barra(Barra(a, b, *props3))  
 
     for i in range(int(38/2)):
         a = par[2*i+1]
@@ -129,7 +129,7 @@ def caso_D():
         ret.agregar_barra(Barra(a, b, *props2))  
 
     for i in range(0,75):
-        ret.agregar_barra(Barra(i, i+1, *props2))  
+        ret.agregar_barra(Barra(i, i+1, *props3))  
 
     for i in range (0,36):
         p=i*2+1
