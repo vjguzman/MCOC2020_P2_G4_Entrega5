@@ -29,5 +29,7 @@ A su vez, y como comentario general en esta entrega, se baso el diseño del reti
 Luego de analizar los datos se logró optimizar el trabajo bajando el peso en casi un 80%, para ello se modificó el radio y el espesor de las barras siempre manteniendo las demás propiedades de las barras siempre tratando de  cumplir los requerimientos de nuestro sistema.
 
 Los cambios realizados fueron los siguientes:
-(foto)
+
+![alt text](https://github.com/vjguzman/MCOC2020_P2_G4_Entrega5/blob/main/Informe/propiedades.jpeg)
+
 donde se ve claramente que los radios de las barras fueron cambiados, para lograr el menor peso posible.
