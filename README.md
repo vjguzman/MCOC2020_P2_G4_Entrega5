@@ -30,3 +30,9 @@ Finalmente, los factores de utilización para el primer modelo, es el que sigue,
 ![alt text](https://github.com/vjguzman/MCOC2020_P2_G4_Entrega5/blob/main/Informe/Fu_Caso2.png)
 
 - Para cada cambio informe qué cambios hizo y porqué, y como cambia el peso y los factores de utilización. 
+
+Luego de analizar los datos se logró optimizar el trabajo bajando el peso en casi un 80%, para ello se modificó el radio y el espesor de las barras siempre manteniendo las demás propiedades de las barras siempre tratando de  cumplir los requerimientos de nuestro sistema.
+
+Los cambios realizados fueron los siguientes:
+(foto)
+donde se ve claramente que los radios de las barras fueron cambiados, para lograr el menor peso posible.
