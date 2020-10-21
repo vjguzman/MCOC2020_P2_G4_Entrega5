@@ -2,9 +2,9 @@
 
 - ¿Cual fue su diseño inicial? ¿Cuanto pesaba? ¿Como eran los factores de utilización y las deformaciones?
 Para comenzar con el diseño del puente tubular de acero, y sus dimensiones por cada nodo dado en las instrucciones de la Entrega N°5, se comenzó por dar algunas medidas generales en torno al puente:
-* Las geometría de las barras: R = 20*cm ; t = 200*mm.
-* El inicio y el fin del puente (Puntos de apoyo de este), dándole un inicio en el punto 7 y su fin en el punto 28 (Viceversa). Donde en ambos puntos mencionados, existe una restricción completa, en los 3 ejes x,y,z. 
-* Las medidas de las barras, donde se tuvo que optimizar cual era la mejor distancia, para obtener la menor cantidad de cortes de barras (Que hace más fácil su trabajo físico), en este caso, para la mayor parte de las barras fue de 6 metros, mientras que la última barra (Amplificada según el eje Y=2) le dimos una medida de 4 metros, todo esto debido a la distancia de 230 metros totales por los cuales debía pasar nuestro puente. 
+  * Las geometría de las barras: R = 20*cm ; t = 200*mm.
+  * El inicio y el fin del puente (Puntos de apoyo de este), dándole un inicio en el punto 7 y su fin en el punto 28 (Viceversa). Donde en ambos puntos mencionados, existe una restricción completa, en los 3 ejes x,y,z. 
+  * Las medidas de las barras, donde se tuvo que optimizar cual era la mejor distancia, para obtener la menor cantidad de cortes de barras (Que hace más fácil su trabajo físico), en este caso, para la mayor parte de las barras fue de 6 metros, mientras que la última barra (Amplificada según el eje Y=2) le dimos una medida de 4 metros, todo esto debido a la distancia de 230 metros totales por los cuales debía pasar nuestro puente. 
 
 Para observar de mejor manera el puente a diseñar en un comienzo, es que se observa la siguiente imagen: 
 
