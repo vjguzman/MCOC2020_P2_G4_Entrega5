@@ -22,14 +22,11 @@ Finalmente, podemos observar la deformación máxima que siente la estructura. P
 
 A partir de ella, es visible notar que las distancias que se moverá en los tres ejes el nodo adjunto. En este caso, el nodo N°59 es el que tiene esta propiedad de ser el de máxima deformación. En el eje que más se mueve, es el eje Y, con un valor de 0,59 metros, que si bien es una gran cantidad, es una cota superior a nuestro problema, que obviamente será cada vez más acotado según se disminuya el peso de la estructura, con lo que disminuirá las cargas a las que estará sujeta la estructura. Como también es visible tanto en el eje x e z, se obtienen deformaciones considerables con valores no menores a 0,26 metros. 
 
-A su vez, y como comentario general en esta entrega, se baso el diseño del reticulado, a lo realizado a lo largo de este proyecto, es decir, la estructura general con la que se trabajó en la entrega N°4. Esto es debido a que se intentó darle una forma distinta al reticulado, sin embargo, a lo largo de los intentos, no daba un resultado debido a que no se tenían una misma cantidad de incógnitas y ecuaciones, con lo que o no había resultado o bien existían infinitas soluciones. 
+A su vez, y como comentario general en esta entrega, se baso el diseño del reticulado, a lo realizado a lo largo de este proyecto, es decir, la estructura general con la que se trabajó en la entrega N°4. Esto es debido a que se intentó darle una forma distinta al reticulado, sin embargo, a lo largo de los intentos, no daba un resultado debido a que no se tenían una misma cantidad de incógnitas y ecuaciones, con lo que o no había resultado o bien existían infinitas soluciones.
+
+Finalmente, los factores de utilización para el primer modelo, es el que sigue, para ambas combinaciones de carga:
+
+![alt text](https://github.com/vjguzman/MCOC2020_P2_G4_Entrega5/blob/main/Informe/Fu_Caso1.png)
+![alt text](https://github.com/vjguzman/MCOC2020_P2_G4_Entrega5/blob/main/Informe/Fu_Caso2.png)
 
 - Para cada cambio informe qué cambios hizo y porqué, y como cambia el peso y los factores de utilización. 
-
-Luego de analizar los datos se logró optimizar el trabajo bajando el peso en casi un 80%, para ello se modificó el radio y el espesor de las barras siempre manteniendo las demás propiedades de las barras siempre tratando de  cumplir los requerimientos de nuestro sistema.
-
-Los cambios realizados fueron los siguientes:
-
-![alt text](https://github.com/vjguzman/MCOC2020_P2_G4_Entrega5/blob/main/Informe/propiedades.jpeg)
-
-donde se ve claramente que los radios de las barras fueron cambiados, para lograr el menor peso posible.
