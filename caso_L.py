@@ -8,7 +8,9 @@ Created on Tue Oct 20 17:01:18 2020
 from reticulado import Reticulado
 from barra import Barra
 from graficar3d import ver_reticulado_3d
-from math import *
+import math
+from numpy import loadtxt
+import numpy as np
 
 def caso_L():
     
@@ -47,7 +49,7 @@ def caso_L():
         x.append(i[0])
         z.append(i[1])
     
-    p = lagrange(x,z) #Ecuacion de la recta
+    #p = lagrange(x,z) #Ecuacion de la recta
     
     dist_x = []
     for i in range(len(x)-1):
